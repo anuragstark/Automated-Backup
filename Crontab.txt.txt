@@ -1,0 +1,7 @@
+Run: crontab -e
+
+paste:0 2 * * * /bin/bash /root/Enacton/backup.sh >> /root/cron_backup_log.txt 2>&1
+
+verifying: crontab -l
+
+ensure executable: chmod +x /root/Enacton/backup.sh

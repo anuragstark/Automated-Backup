@@ -1,0 +1,12 @@
+Run :vi ~.mailrc
+
+paste: 
+
+t smtp-use-starttls
+set ssl-verify=ignore
+set mta=smtp://smtp.gmail.com:587
+set smtp-auth=login
+set smtp-auth-user=your@gmail.com
+set smtp-auth-password=16 digit Google APP code 
+set from="your@gmail.com"
+~                                    
